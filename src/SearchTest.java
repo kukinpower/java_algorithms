@@ -14,8 +14,8 @@ class SearchTest {
             arr.add(i);
         }
 
-        Assertions.assertEquals(LinearSearch.search(arr, 10), -1);
-        Assertions.assertEquals(LinearSearch.search(arr, 5), 4);
-        Assertions.assertEquals(LinearSearch.search(arr, 8), 7);
+        Assertions.assertEquals(-1, LinearSearch.search(arr, 10));
+        Assertions.assertEquals(4, LinearSearch.search(arr, 5));
+        Assertions.assertEquals(7, LinearSearch.search(arr, 8));
     }
 }
