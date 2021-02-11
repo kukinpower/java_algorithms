@@ -1,8 +1,15 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class LinearSearch {
 
+    /**
+     * Searching n in array
+     * Linear Search complexity: O(n)
+     * @param arr array where to search
+     * @param n integer to search
+     * @return index of array where value is stored
+     * or -1 in case of value was not found
+     */
     public static int search(List<Integer> arr, int n) {
         for (int i = 0; i < arr.size(); i++) {
             if (arr.get(i) == n) {
@@ -10,18 +17,5 @@ public class LinearSearch {
             }
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        List<Integer> arr = new ArrayList<>();
-
-        for (int i = 1; i < 10; i++) {
-            arr.add(i);
-        }
-
-        System.out.println(search(arr, 10)); // -1
-        System.out.println(search(arr, 5)); // 4
-        System.out.println(search(arr, 7)); // 6
-
     }
 }
