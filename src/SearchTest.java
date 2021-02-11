@@ -13,9 +13,13 @@ class SearchTest {
         for (int i = 1; i < 10; i++) {
             arr.add(i);
         }
-
+        // Testing Linear Search
         Assertions.assertEquals(-1, LinearSearch.search(arr, 10));
         Assertions.assertEquals(4, LinearSearch.search(arr, 5));
         Assertions.assertEquals(7, LinearSearch.search(arr, 8));
+        // Testing Binary Search
+        Assertions.assertEquals(-1, BinarySearch.search(arr, 10));
+        Assertions.assertEquals(4, BinarySearch.search(arr, 5));
+        Assertions.assertEquals(7, BinarySearch.search(arr, 8));
     }
 }
