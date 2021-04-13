@@ -1,5 +1,7 @@
-package com.romankukin.algorithms.practice;
+package com.romankukin.algorithms.practice.test;
 
+import com.romankukin.algorithms.practice.BinarySearch;
+import com.romankukin.algorithms.practice.LinearSearch;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
