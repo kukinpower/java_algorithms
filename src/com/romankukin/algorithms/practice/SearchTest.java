@@ -1,3 +1,5 @@
+package com.romankukin.algorithms.practice;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

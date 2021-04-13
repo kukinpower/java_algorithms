@@ -1,3 +1,5 @@
+package com.romankukin.algorithms.practice;
+
 import java.util.List;
 
 public class LinearSearch {
